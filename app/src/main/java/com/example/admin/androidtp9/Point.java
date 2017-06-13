@@ -8,6 +8,9 @@ import android.os.Parcelable;
  */
 
 public class Point implements Parcelable{
+
+    private int compteur;
+
     public int getCompteur() {
         return compteur;
     }
@@ -16,7 +19,7 @@ public class Point implements Parcelable{
         this.compteur = compteur;
     }
 
-    private int compteur;
+
 
 
     @Override
